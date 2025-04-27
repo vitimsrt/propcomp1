@@ -1,0 +1,90 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    text-align: center;
+    
+}
+header{
+    background: #28a7;
+    color: white;
+    padding: 15px 0; /* espaçamento interno 15px acima e abaixo, e 0px esquerda e direita*/
+    font-size: 24px;
+    
+}
+ nav{
+    background-color: #4c7fb1;
+    padding: 10px;
+    display: flex; /* flex boxing */
+    justify-content: space-between; /* espaço entre os links, alinhamento na horizontal*/
+    align-items: center; /* alinhamento vertical*/
+    
+ }
+#links-menu{
+    display: flex;
+    gap: 50px;/*da espaço entre as caixinhas/links */
+}
+/* configura o estilo das âncoras que estão dentro do nav*/
+nav a{
+    color: white; /* texto branco*/
+    text-decoration: none; /* não faz decoração no link*/
+    padding: 10px 15px; /* 10 px é acima e abaixo, e o 15px é esquerda e direita*/
+    font-size: 18px; /* 10px de tamanho da fonte*/
+    background-color: rgb(59, 82, 172); /* cor de fundo*/
+    border-radius: 5px; /* borda com cantos arredondados*/
+}
+       
+nav a:hover {
+    background: #003d82;
+}
+
+img{
+    width: 130px;
+    height: auto;
+    margin-right: 30px; /*espaçamento interno à direita de 20 px*/
+     border-radius: 10px;
+}
+   
+    .container{
+        width: 80%;
+        margin: 20px auto; /* 20px em cima e em baixo e automático esquerda e direita*/
+        background: rgb(228, 231, 234);
+        padding: 20px; /*espaçamento interno nos 4 lados*/
+        border-radius: 10px;
+        text-align: justify
+    }
+        h2{
+            text-align: center;
+        }
+        td{
+            padding: 15px;
+        }
+    table tr td {
+        padding: 20px;
+    }
+     table{
+        margin: 0 auto; /*espaçamento interno de 0 acima e abaixo e auto na esq dir*/
+     }   
+     .laranja {
+        background-color: orange;
+    }
+    .azul{
+        background-color: blue;
+    }
+    .preta{
+        background-color: black;
+        color: white;
+    }
+    .roxo{
+        background-color: purple;
+    }
+    .verde{
+        background-color: green;
+    }
+    .vermelha{
+        background-color:red;
+    }
+    .campos{
+        margin: 10px;
+    }
