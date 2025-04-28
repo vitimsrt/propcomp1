@@ -1,45 +1,163 @@
 body {
-    /* fonte de texto*/
-  font-family: Arial, sans-serif;
-  background-color: rgb(233, 78, 78);
-  /*usa modelo de caixa (flexbox), conceito de caixa para posicionamento*/
-  display: flex;
-  justify-content: center; /*centraliza na horizontal*/
-  height: 100vh; /* altura da página (100% da altura da página)*/
-  align-items: center; /*centraliza na vertical*/
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
 
-} 
+header {
+    background-color: #28a745;
+    color: white;
+    padding: 15px 0;
+    /* espaçamento interno 15px á esquerda e á direita e 0 para cima e para baixo*/
+    font-size: 24px;
+    border: 1px solid black;
+
+}
+
+nav {
+    background-color: #007bff;
+    padding: 10px;
+    display: flex;
+    /*Flex boxing*/
+    justify-content: space-between;
+    align-items: center;
+    /*alinhamento vertical*/
+}
+
+#links-menu {
+    display: flex;
+    gap: 20px;
+
+}
+
+/*configura o estilo das ancoras que estão dentro do nav*/
+nav a {
+    color: white;
+    /*texto branco*/
+    text-decoration: none;
+    padding: 10px 15px;
+    /* 10px acima e abaixo 15px esquerda e direita*/
+    font-size: 10px;
+    background: #005663;
+    border-radius: 5px;
+
+}
+
+nav a:hover {
+    background: #003d82;
+}
+
+img {
+    width: 120px;
+    height: auto;
+    margin-right: 20px;
+    /*espaçameto externo á direita de 20 px*/
+    border-radius: 10px;
+}
+
 .container {
-  background-color: white;
-  padding: 20px; /* espaçamento interno*/
-  border-radius: 10px; /*borda*/
-  text-align: center; /* texto alinhado no centro*/
-  box-shadow: 0 6px 10px; /* sombra */
-}
-button{
-background-color: rgb(225, 77, 121);
-color: white;
-border: none;
-/*10 abaixo e acima e 20 esquerda e direita*/
-padding: 10px 20px;
+    width: 80%;
+    margin: 20px auto;
+    /*20px espaçamento para direita esquerda*/
+    background: white;
+    padding: 20px;
+    /*espaçamento interno nos 4 lados*/
+    border-radius: 10px;
+    text-align: justify;
 }
 
-
-
-/* ao passar o mouse em cima do botão*/
-button:hover {
-  background-color: rgb(147, 16, 84);
+h2 {
+    text-align: center;
 }
 
-.foto{
-/*borda com cantos arredondados*/  
- border-radius: 5%;
- /* largura*/
- width: 100px;
- /*altura*/
- height: 100px;
- /* espaçamento externo abaixo*/
- margin-bottom: 10px;
- 
+table tr td {
+    padding: 20px;
+}
 
+table {
+    margin: 0 auto;
+    /* espaçamento externo de 0 acima e abaixo e automatico esquerda e direita*/
+}
+
+.laranja {
+    background-color: orange;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.preta {
+    background-color: black;
+    color: white;
+}
+
+.roxo {
+    background-color: purple;
+}
+
+.verde {
+    background-color: green;
+}
+
+.vermelha {
+    background-color: red;
+}
+
+.cinza {
+    background-color: gray;
+}
+
+.campos {
+    margin: 20px;
+
+}
+
+.tabela {
+    border: 1px solid black;
+    padding: 20px;
+    background-color: lightskyblue;
+}
+
+h2 li {
+    text-align: center;
+}
+
+.tabela2 {
+    border: 1px solid black;
+    padding: 20px;
+    background-color: lightskyblue;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.azulclaro {
+    background-color: lightskyblue;
+}
+
+.amarelo {
+    background-color: yellow;
+}
+
+.titulos {
+    text-align: left;
+}
+
+.tabela3 {
+    text-align: center;
+    width: 500px;
+    height: 200px;
+}
+
+.tabela4 {
+    width: 700px;
+}
+
+.titulo2 {
+    text-align: center;
+    background-color: gray;
 }
